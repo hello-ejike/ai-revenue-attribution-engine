@@ -1,0 +1,55 @@
+# Python environment
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.db
+*.sqlite3
+*.log
+
+# Virtual environments
+venv/
+env/
+.virtualenv/
+.env/
+.env.local
+
+# Data files (generated)
+data/mock/
+data/processed/
+data/*.csv
+data/*.json
+data/*.pkl
+
+# Reports
+reports/
+*.pdf
+*.html
+
+# IDE config
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local LLM models
+models/*.bin
+models/*.gguf
+*.bin
+*.gguf
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+logs/
+*.log
